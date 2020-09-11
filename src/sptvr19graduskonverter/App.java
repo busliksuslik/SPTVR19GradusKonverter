@@ -35,6 +35,11 @@ class App {
                 System.out.printf("C = %.3f\nF = %.3f", number - 273.15,(number-273.15)*1.8+32);
                 break;
             }
+            default:{
+                System.out.println("Select valid operation");
+                this.Start();
+                break;
+            }
         }
     }
     
